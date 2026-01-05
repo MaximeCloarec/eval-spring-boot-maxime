@@ -28,7 +28,7 @@ public class ExceptionController {
     public ResponseEntity<Map<String, String>> produitAlreadyExistsException(ProduitAlreadyExistsException e) {
         Map<String, String> response = new HashMap<>();
         response.put("Error", e.getMessage());
-        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
+        return ResponseEntity.status(HttpStatus.CONFLICT).body(response);
     }
 
     @ExceptionHandler(CategorieNotFoundException.class)
@@ -44,6 +44,6 @@ public class ExceptionController {
     public ResponseEntity<Map<String, String>> categorieAlreadyExistsException(CategorieAlreadyExistsException e) {
         Map<String, String> response = new HashMap<>();
         response.put("Error", e.getMessage());
-        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
+        return ResponseEntity.status(HttpStatus.CONFLICT).body(response);
     }
 }
