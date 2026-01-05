@@ -1,6 +1,6 @@
 package com.maximecloarec.evalspring.service;
 
-import com.maximecloarec.evalspring.entity.Categorie;
+import com.maximecloarec.evalspring.model.Categorie;
 import com.maximecloarec.evalspring.exception.CategorieAlreadyExistsException;
 import com.maximecloarec.evalspring.exception.CategorieNotFoundException;
 import com.maximecloarec.evalspring.repository.CategorieRepository;

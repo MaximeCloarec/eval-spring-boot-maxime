@@ -1,6 +1,6 @@
 package com.maximecloarec.evalspring.repository;
 
-import com.maximecloarec.evalspring.entity.Produit;
+import com.maximecloarec.evalspring.model.Produit;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

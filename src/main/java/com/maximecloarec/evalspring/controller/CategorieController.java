@@ -1,6 +1,6 @@
 package com.maximecloarec.evalspring.controller;
 
-import com.maximecloarec.evalspring.entity.Categorie;
+import com.maximecloarec.evalspring.model.Categorie;
 import com.maximecloarec.evalspring.service.CategorieService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

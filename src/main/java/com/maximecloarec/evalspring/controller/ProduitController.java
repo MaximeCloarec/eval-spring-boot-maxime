@@ -1,6 +1,6 @@
 package com.maximecloarec.evalspring.controller;
 
-import com.maximecloarec.evalspring.entity.Produit;
+import com.maximecloarec.evalspring.model.Produit;
 import com.maximecloarec.evalspring.service.ProduitService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.maximecloarec.evalspring.entity;
+package com.maximecloarec.evalspring.model;
 
 
 import jakarta.persistence.*;

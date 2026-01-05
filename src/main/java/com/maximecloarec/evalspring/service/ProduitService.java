@@ -1,6 +1,6 @@
 package com.maximecloarec.evalspring.service;
 
-import com.maximecloarec.evalspring.entity.Produit;
+import com.maximecloarec.evalspring.model.Produit;
 import com.maximecloarec.evalspring.exception.ProduitAlreadyExistsException;
 import com.maximecloarec.evalspring.exception.ProduitNotFoundException;
 import com.maximecloarec.evalspring.repository.ProduitRepository;

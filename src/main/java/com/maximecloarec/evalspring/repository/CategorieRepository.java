@@ -1,6 +1,6 @@
 package com.maximecloarec.evalspring.repository;
 
-import com.maximecloarec.evalspring.entity.Categorie;
+import com.maximecloarec.evalspring.model.Categorie;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
