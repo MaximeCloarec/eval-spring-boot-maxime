@@ -21,7 +21,7 @@ public class Produit {
     private String nom;
 
     @Column(nullable = false)
-    @NotBlank(message = "Le champs ne peut pas être vide")
+    @NotNull(message = "Le champs ne peut pas être vide")
     @Positive(message = "Le prix doit être positif et supérieur à zéro")
     private Integer prix;
 
